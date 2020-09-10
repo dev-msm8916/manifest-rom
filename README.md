@@ -1,4 +1,4 @@
-# Zenx 1.7 based on Android 10
+# Zenx based on Android 10
 
 <p align="center">
 <img src="https://github.com/ZenX-OS/XDA/blob/master/Images/ZenX-OS_logo.png" >
