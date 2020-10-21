@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+ <!--DeviceRepos-->
+  <project path="device/lenovo/a6000" name="Xvae27/device_lenovo_a6000" remote="github" revision="Ten" />
+  <project path="vendor/lenovo/a6000" name="Xvae27/vendor_lenovo_a6000" remote="github" revision="Ten" />
+  <project path="kernel/lenovo/a6000" name="Xvae27/kernel_lenovo_a6000" remote="github" revision="Ten" />
+  
+
+</manifest>
