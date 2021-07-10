@@ -1,24 +1,16 @@
-# Zenx based on Android 10
-
-<p align="center">
-<img src="https://github.com/ZenX-OS/XDA/blob/master/Images/ZenX-OS_logo.png" >
-</p>
-
 Sync sources:
 
-    $ repo init -u https://github.com/ZenX-OS/android_manifest.git -b ten
-	or shallow clone if you don't have much bandwith
-    $ repo init -u https://github.com/ZenX-OS/android_manifest.git -b ten  --depth=1
+    $ repo init -u git://github.com/Los-FE/manifest.git -b lineage-18.1
     $ mkdir -p .repo/local_manifests
-    $ wget https://raw.githubusercontent.com/Xvae27/manifest-rom/Ten/ten.xml -O .repo/local_manifests/roomservice.xml
-    $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+    $ wget https://raw.githubusercontent.com/dev-msm8916/manifest-rom/11/11.xml -O .repo/local_manifests/roomservice.xml
+    $ repo sync
 
-Building for Lenovo A6000
+Building for Xiaomi Redmi 3
 ---------------
 
 To build:
 
     $ export LC_ALL=C
     $ . build/envsetup.sh
-    $ lunch zenx_a6000-userdebug
-    $ brunch zenx_a6000-userdebug
+    $ lunch lineage_ido-userdebug
+    $ brunch lineaga_ido-userdebug

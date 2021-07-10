@@ -2,9 +2,9 @@
 <manifest>
 	
  <!--DeviceRepos-->
-  <project path="device/lenovo/a6000" name="Xvae27/device_lenovo_a6000" remote="github" revision="Ten" />
-  <project path="vendor/lenovo/a6000" name="Xvae27/vendor_lenovo_a6000" remote="github" revision="Ten" />
-  <project path="kernel/lenovo/a6000" name="Xvae27/kernel_lenovo_a6000" remote="github" revision="Ten" />
+  <project path="device/xiaomi/ido" name="dev-msm8916/android_device_xiaomi_ido" remote="github" revision="lineage-18.1" />
+  <project path="vendor/xiaomi/ido" name="dev-msm8916/android_vendor_xiaomi_ido" remote="github" revision="11.x" />
+  <project path="kernel/xiaomi/msm8916" name="dev-msm8916/android_kernel_xiaomi_ido" remote="github" revision="11.x" />
+  <project path="device/cyanogen/msm8916-common" name="dev-msm8916/android_device_cyanogen_msm8916-common" remote="github" revision="11.x" />
   
-
 </manifest>
